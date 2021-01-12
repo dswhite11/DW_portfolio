@@ -6,4 +6,4 @@ Portfolio for David White
 This project is a visualization of all the books I read in 2020. It is interactive, and allows the user to read my review of each book by selecting an icon on the chart at the top. Selecting an icon will also highlight the book's page count in the bar graph.
 
 
-![Animated gif](https://gph.is/g/aNLMYGv)
+![Animated gif](https://media.giphy.com/media/fvR8A4wLaGGn1KMXra/giphy.gif)
