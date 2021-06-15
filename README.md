@@ -32,4 +32,4 @@ Applications used:
 
 Demonstration:
 
-![Animated gif](https://media.giphy.com/media/fvR8A4wLaGGn1KMXra/giphy.gif)
+![Animated gif](/images/readinglog_tableau_gif.gif)
