@@ -22,7 +22,7 @@ Languages used:
 Visualizations created:
 
 <div>
-  <img src="/portfolio/images/mean_daily_ride_count.png" height=200 width=200>
+  <a href="/portfolio/images/mean_daily_ride_count.png"><img src="/portfolio/images/mean_daily_ride_count.png" height=200 width=200>
   <img src="/portfolio/images/mean_ride_time_per_month.png" height=200 width=200>
   <img src="/portfolio/images/mean_ride_time_weekend_weekday.png" height=200 width=200>
   <img src="/portfolio/images/ride_geographical_distribution.png" height=200 width=200>
