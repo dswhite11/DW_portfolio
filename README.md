@@ -17,7 +17,7 @@ Languages used:
 - SQL
 - R
 
-![Animated gif](https://github.com/dswhite11/portfolio/blob/d410c86792ae71fd2fef957a3055f0c3ff8977c5/images/cyclistics_anim_screenshot.gif)
+![Animated gif](/images/cyclistics_anim_screenshot.gif)
 
 # [Project 2 - Reading Log Visualization](https://public.tableau.com/profile/david.white5299#!/vizhome/Books2020_16052071128230/Daves2020ReadingLog)
 
