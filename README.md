@@ -1,7 +1,5 @@
 </head>
 
-# Portfolio
-
 ## [Project 1 - Bike-Share Case Study](http://htmlpreview.github.io/?https://github.com/dswhite11/DW_portfolio/blob/c81faca8b4e40771da8f49ee5e10e88496daba2c/cycling_project/cycling_notebook.html)
 
 I created this report from an R Notebook as the capstone project to Google's Data Analytics Certificate course, hosted on Coursera. The purpose of the project was to analyze the data of a bike-share company in Chicago, and provide recommendations to the company's marketing team for their new ad campaign.
