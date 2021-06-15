@@ -17,6 +17,8 @@ Languages used:
 - SQL
 - R
 
+Preview:
+
 ![Animated gif](/images/cyclistics_anim_screenshot.gif)
 
 Visualizations created:
@@ -42,6 +44,6 @@ Applications used:
 - Google Sheets
 - RStudio
 
-Demonstration:
+Preview:
 
 ![Animated gif](/images/readinglog_tableau_gif.gif)
