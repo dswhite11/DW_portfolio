@@ -5,10 +5,15 @@ Data Science Portfolio
 I created this R Notebook as the capstone project to Google's Data Analytics Certificate course, hosted on Coursera. The purpose of the project was to analyze the data of a bike-share company in Chicago, and provide recommendations to the company's marketing team for their new ad campaign.
 
 Applications used:
-- SQL
+- PostgreSQL
+- Postico
 - Excel
-- R
+- RStudio
 - Tableau
+
+Languages used:
+- SQL
+- R
 
 ## [Project 2 - Reading Log Visualization](https://public.tableau.com/profile/david.white5299#!/vizhome/Books2020_16052071128230/Daves2020ReadingLog)
 
