@@ -27,9 +27,10 @@ Visualizations created:
   <a href="/portfolio/images/mean_ride_time_weekend_weekday.png"><img src="/portfolio/images/mean_ride_time_weekend_weekday.png" height=200 width=200></a>
   <a href="/portfolio/images/ride_geographical_distribution.png"><img src="/portfolio/images/ride_geographical_distribution.png" height=200 width=200></a>
 </div>
-  
-  
-  
+   
+
+---
+
 # [Project 2 - Reading Log Visualization](https://public.tableau.com/profile/david.white5299#!/vizhome/Books2020_16052071128230/Daves2020ReadingLog)
 
 This project is a visualization of all the books I read in 2020. It is interactive, and allows the user to read my review of each book by selecting an icon on the chart at the top. Selecting an icon will also highlight the book's page count in the bar graph.
