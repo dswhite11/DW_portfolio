@@ -1,5 +1,7 @@
 ---
+
 title: Portfolio
+
 ---
 
 # [Project 1 - Bike-Share Case Study](http://htmlpreview.github.io/?https://github.com/dswhite11/DW_portfolio/blob/c81faca8b4e40771da8f49ee5e10e88496daba2c/cycling_project/cycling_notebook.html)
