@@ -2,7 +2,9 @@
 Data Science Portfolio
 ## [Project 1 - Bike-Share Data Analysis](http://htmlpreview.github.io/?https://github.com/dswhite11/DW_portfolio/blob/c81faca8b4e40771da8f49ee5e10e88496daba2c/cycling_project/cycling_notebook.html)
 
-I created this R Notebook as the capstone project to Google's Data Analytics Certificate course, hosted on Coursera. The purpose of the project was to analyze the data of a bike-share company in Chicago, and provide recommendations to the company's marketing team for their new ad campaign.
+I created this report from an R Notebook as the capstone project to Google's Data Analytics Certificate course, hosted on Coursera. The purpose of the project was to analyze the data of a bike-share company in Chicago, and provide recommendations to the company's marketing team for their new ad campaign.
+
+The report is extremely detailed and shows nearly all the steps I took in the analysis process. It begins with uploading and manipulating the data in PostgreSQL and Excel, then moves to cleaning and reorganizing the data, and ends with visualizations created in RStudio and Tableau.
 
 Applications used:
 - PostgreSQL
