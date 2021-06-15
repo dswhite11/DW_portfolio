@@ -24,7 +24,7 @@ I used a web-scraping program based in R to scrape the GoodReads.com website for
 Applications used:
 - Tableau
 - Google Sheets
-- R
+- RStudio
 
 Demonstration:
 
