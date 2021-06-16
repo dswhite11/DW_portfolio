@@ -1,0 +1,115 @@
+---
+title: "Lakers R Markdown Intro"
+author: "David White"
+date: "5/19/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+This is my first markdown document. In it, I will analyze the dataset `lakers` from the `lubridate` package to produce a visualization of field goals attempted and made by the Los Angeles Lakers in their first game of the 2008 - 2009 NBA season, against the Portland Trailblazers.
+
+### Loading Libraries and Data
+
+First, let's load our libraries and dataset. The data is found in the `lubridate` library. I will be using the `filter()` function, so I will need to load the `diplyr` library as well. Lastly, I will load the `ggplot2` library for my visualizations.
+
+```{r}
+library(lubridate)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+data("lakers")
+str(lakers)
+head(lakers, 10)
+```
+
+### Filtering Data Frames
+
+I'm only interested in the first game of the season, which is denoted by the game's date, October 28, 2008, or `20081028` in the `date` column. So I will use the `filter()` function from the `dplyr` library to create a new data frame.
+
+```{r}
+game1 <- filter(lakers, date == 20081028)
+```
+  
+The original dataset includes information from both Laker players and Trailblazer players, so my new data frame does too. My analysis will be of Lakers only, so I will use `filter()` again to drop information about Portland players.
+
+```{r}
+game1_laker_players <- filter(game1, team == "LAL")
+head(game1_laker_players, 10)
+```
+
+As you can see, now the rows with `POR` values in the `team` column are gone.
+
+I'm only interested in analyzing shots from the field -- no free throws will be used in my analysis. I therefore will employ the `filter()` function once again to accomplish this goal.
+
+```{r}
+game1_laker_fgs <- filter(game1_laker_players, etype == "shot")
+head(game1_laker_fgs)
+```
+
+I have the data I want. Now I can create a visualization of that data using `ggplot2`.
+
+### Visualizations with ggplot2
+
+I want to compare made field goals and missed field goals for each player. Doing so will give me a superficial idea of each player's efficiency in the game.
+
+Using `ggplot`'s `geom_bar()` and `facet_wrap()` functions, I can build the visualization I want. I will show makes and misses on the x-axis, and the count of each on the y-axis. I will divide the plots using the `player` column.
+
+```{r}
+ggplot(game1_laker_fgs) + 
+  geom_bar(aes(x = result, fill = result)) +
+  facet_wrap(~player)
+```
+
+This visualization looks great. I can very quickly see that Kobe Bryant and Pau Gasol were the highest volume shooters on the team, and that Gasol in particular was very efficient. I also note that Luke Walton and Derek Fisher struggled mightily, which confirms my assumptions about their abilities.
+
+I want to tweak my visualization to get it just right. I will use my colors more intentionally, with blue being a made shot and red being a miss.[^1] I can do this by creating a vector of those colors. Organizing the colors this way will also eliminate the need for a legend, so I can get rid of it. Lastly, I want the players' names at the bottom of each plot instead of the top, since that would improve readability. I will change the code accordingly.
+
+```{r}
+ggplot(game1_laker_fgs) + 
+  geom_bar(aes(x = result, fill = result), show.legend = FALSE) + 
+  facet_wrap(~player, strip.position = "bottom") + 
+  scale_fill_manual(values = c("blue", "red"))
+```
+
+That's better, but the colors are a little too bright for my taste. I will make them a little paler using values from the `ggplot2` [predefined color name list](http://sape.inf.usi.ch/quick-reference/ggplot2/colour).
+
+```{r}
+ggplot(game1_laker_fgs) + 
+  geom_bar(aes(x = result, fill = result), show.legend = FALSE) + 
+  facet_wrap(~player, strip.position = "bottom") + 
+  scale_fill_manual(values = c("royalblue4", "tomato2"))
+```
+
+That's a little easier on the eyes.
+
+To put some finishing touches on the visualization, I will add a title and subtitle using labs(), apply a minimalist theme, and remove the labels from the x and y axes.
+
+```{r}
+ggplot(game1_laker_fgs) + 
+  geom_bar(aes(x = result, fill = result), show.legend = FALSE) + 
+  facet_wrap(~player, strip.position = "bottom") + 
+  scale_fill_manual(values = c("royalblue4", "tomato2")) +
+  labs(x = NULL, y = NULL, title = "Laker Shots v. Portland", subtitle = "October 28, 2008") +
+  theme_minimal()
+```
+
+Things look good!
+
+And then I notice something peculiar. The y-axis measures number of shots taken. This measurement is discrete -- you can't take half of a shot, after all. But the y-axis appears to be measuring shots as a continuous value, as it has tick marks every 2.5 shots. I will use `scale_y_continuous()` and `seq()` to fix this issue. I will set the max of the y-axis at 10, since no player has makes or misses that exceed that value, and a step value of 2.
+
+```{r}
+ggplot(game1_laker_fgs) + 
+  geom_bar(aes(x = result, fill = result), show.legend = FALSE) + 
+  facet_wrap(~player, strip.position = "bottom") + 
+  scale_fill_manual(values = c("royalblue4", "tomato2")) +
+  labs(x = NULL, y = NULL, title = "Laker Shots v. Portland", subtitle = "October 28, 2008") +
+  theme_minimal() +
+  scale_y_continuous(breaks = seq(0, 10, 2))
+```
+
+Now the y-axis looks correct. My visualization, as well as my first R Markdown file, are now complete.
+
+[^1]: I chose not to use the Lakers' color scheme (purple and gold) for this visualization because I did not feel those colors juxtapose themselves as well as blue and red.
