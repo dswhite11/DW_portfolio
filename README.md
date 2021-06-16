@@ -7,6 +7,7 @@ I created this report from an R Notebook as the capstone project to Google's Dat
 The report is extremely detailed and shows nearly all the steps I took in the analysis process. It begins with uploading and manipulating the data in PostgreSQL and Excel, then moves to cleaning and reorganizing the data, and ends with visualizations created in RStudio and Tableau.
 
 Applications used:
+
 - PostgreSQL
 - Postico
 - Excel
@@ -14,6 +15,7 @@ Applications used:
 - Tableau
 
 Languages used:
+
 - SQL
 - R
 
@@ -67,4 +69,4 @@ Languages used:
 
 - R
 
-![](/images/lakers_project/lakers_screenshot.gif)
+![](/images/lakers_project/lakers_screenshot.png)
