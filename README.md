@@ -69,4 +69,6 @@ Languages used:
 
 - R
 
-![](/images/lakers_project/lakers_screenshot.png)
+Preview:
+
+![Preview](/images/lakers_screenshot.png)
