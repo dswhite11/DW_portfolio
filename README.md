@@ -57,7 +57,7 @@ Preview:
 
 ---
 
-# [Project 3 - Lakers Game Analysis](http://htmlpreview.github.io/?)
+# [Project 3 - Lakers Game Analysis](http://htmlpreview.github.io/?https://github.com/dswhite11/portfolio/blob/d89e5016de149971961424d6e08a6c361dae2344/laker_project/lakers_markdown_intro.html)
 
 A fun project using the built-in Lakers data from the Lubridate package. I practiced filtering and plotting with ggplot2 to analyze each Laker's performance in the first game of the season, against the Portland Trailblazers. The notebook goes through every step of my thinking process, so if it seems tedious and wordy, that's why.
 
