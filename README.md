@@ -45,7 +45,7 @@ Visualizations created:
 
 ---
 
-# [Project 2 - Movie Correlation Project in Python](/movies_project/Movie Correlation Project.md)
+# [Project 2 - Movie Correlation Project in Python](movies_project/Movie%20Correlation%20Project.md)
 
 ### Summary
 
