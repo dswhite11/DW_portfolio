@@ -52,17 +52,19 @@ This project is a visualization of all the books I read in 2020. It is interacti
 
 I used a web-scraping program based in R to scrape the GoodReads.com website for page numbers for all of the books. 
 
-Applications used:
+### Summary
+
+### Applications used
 
 - Tableau
 - Google Sheets
 - RStudio
 
-Languages used:
+### Languages used
 
 - R
 
-Preview:
+### Preview
 
 ![Animated gif](/images/readinglog_tableau_gif.gif)
 
@@ -72,14 +74,16 @@ Preview:
 
 A fun project using the built-in Lakers data from the Lubridate package. I practiced filtering and plotting with ggplot2 to analyze each Laker's performance in the first game of the season, against the Portland Trailblazers. The notebook goes through every step of my thinking process, so if it seems tedious and wordy, that's why.
 
-Applications used:
+### Summary
+
+### Applications used
 
 - RStudio
 
-Languages used:
+### Languages used
 
 - R
 
-Preview:
+### Preview 
 
 ![Preview](/images/lakers_screenshot.png)
