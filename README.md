@@ -53,6 +53,10 @@ I used a web-scraping program based in R to scrape the GoodReads.com website for
 
 ### Summary
 
+- Stored data in Google Sheets
+- Used Tableau to create visualization
+- Used web-scraping tool in R to gather data
+
 ### Applications used
 
 - Tableau
@@ -74,6 +78,10 @@ I used a web-scraping program based in R to scrape the GoodReads.com website for
 A fun project using the built-in Lakers data from the Lubridate package. I practiced filtering and plotting with ggplot2 to analyze each Laker's performance in the first game of the season, against the Portland Trailblazers. The notebook goes through every step of my thinking process, so if it seems tedious and wordy, that's why.
 
 ### Summary
+
+- Data comes from the **Lubridate** library in R
+- Filtered the data using **dplyr** library
+- Used **ggplot2** to create visualization
 
 ### Applications used
 
