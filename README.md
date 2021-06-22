@@ -33,8 +33,6 @@ The report is extremely detailed and shows nearly all the steps I took in the an
 
 ![Animated gif](/images/cyclistics_anim_screenshot.gif)
 
-Visualizations created:
-
 <div>
   <a href="/portfolio/images/mean_daily_ride_count.png"><img src="/portfolio/images/mean_daily_ride_count.png" height=200 width=200></a>
   <a href="/portfolio/images/mean_ride_time_per_month.png"><img src="/portfolio/images/mean_ride_time_per_month.png" height=200 width=200></a>
@@ -47,7 +45,16 @@ Visualizations created:
 
 # [Project 2 - Movie Correlation Project in Python](movies_project/Movie%20Correlation%20Project.md)
 
+I downloaded the dataset 'Movie Industry' from Kaggle.com for this project. I wanted to see if there were any particular features about movies -- their budget, or the company that filmed them, or their director, etc. -- that correlated with gross earnings. After cleaning the data, I generated heat maps to show relationships between the different features in the dataset. I concluded that the strongest correlations to gross earnings were a movie's budget and the number of votes it received.
+
 ### Summary
+
+- Used **pandas** to import dataset into a dataframe
+- Generated scatterplots using **matplotlib**
+- Looked for missing data using **numpy**
+- Converted object data to category/numerical data for better analysis
+- Used **seaborn** to generate a regression line over a scatterplot
+- Used **seaborn** to generate a heatmap
 
 ### Applications used
 
@@ -58,6 +65,10 @@ Visualizations created:
 - Python
 
 ### Preview
+
+![scatterplot](movies_project/Movie%20Correlation%20Project_files/Movie%20Correlation%20Project_13_1.png)
+
+![heatmap](movies_project/Movie%20Correlation%20Project_files/Movie%20Correlation%20Project_20_0.png)
 
 ---
 
