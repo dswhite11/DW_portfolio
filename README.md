@@ -16,7 +16,6 @@ The report is extremely detailed and shows nearly all the steps I took in the an
 - Used SQL to clean the latitude and longitude data
 - Plotted mean ride times, weekend/weekday ride counts, mean weekend/weekday ride counts using **ggplot2** library
 - Created map visualizations in Tableau
-- 
 
 ### Applications used
 
