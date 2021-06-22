@@ -8,9 +8,8 @@ The report is extremely detailed and shows nearly all the steps I took in the an
 
 ### Summary
 
-- Combined datasets using SQL
-- Explored data in SQL
-- Calculated ride times in SQL, cleaned data of negative ride times
+- Used SQL to combined datasets and explore data
+- Calculated ride times in SQL, and cleaned data of negative ride times
 - Using SQL, calculated mean ride times, weekend and weekday ride counts, mean weekend and weekday ride counts by month
 - Used R and **Lubridate** library to converted ride times (HH:MM:SS) to decimals
 - Used SQL to clean the latitude and longitude data
