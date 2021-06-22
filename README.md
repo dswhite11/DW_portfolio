@@ -45,7 +45,23 @@ Visualizations created:
 
 ---
 
-# [Project 2 - Reading Log Visualization](https://public.tableau.com/profile/david.white5299#!/vizhome/Books2020_16052071128230/Daves2020ReadingLog)
+# Project 2 - Movie Correlation Project in Python
+
+### Summary
+
+### Applications used
+
+- Jupyter Notebooks
+
+### Languages used
+
+- Python
+
+### Preview
+
+---
+
+# [Project 3 - Reading Log Visualization](https://public.tableau.com/profile/david.white5299#!/vizhome/Books2020_16052071128230/Daves2020ReadingLog)
 
 This project is a visualization of all the books I read in 2020. It is interactive, and allows the user to read my review of each book by selecting an icon on the chart at the top. Selecting an icon will also highlight the book's page count in the bar graph.
 
@@ -73,7 +89,7 @@ I used a web-scraping program based in R to scrape the GoodReads.com website for
 
 ---
 
-# [Project 3 - Lakers Game Analysis](http://htmlpreview.github.io/?https://github.com/dswhite11/portfolio/blob/d89e5016de149971961424d6e08a6c361dae2344/laker_project/lakers_markdown_intro.html)
+# [Project 4 - Lakers Game Analysis](http://htmlpreview.github.io/?https://github.com/dswhite11/portfolio/blob/d89e5016de149971961424d6e08a6c361dae2344/laker_project/lakers_markdown_intro.html)
 
 A fun project using the built-in Lakers data from the Lubridate package. I practiced filtering and plotting with ggplot2 to analyze each Laker's performance in the first game of the season, against the Portland Trailblazers. The notebook goes through every step of my thinking process, so if it seems tedious and wordy, that's why.
 
