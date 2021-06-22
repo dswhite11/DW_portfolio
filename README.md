@@ -8,6 +8,16 @@ The report is extremely detailed and shows nearly all the steps I took in the an
 
 ### Summary
 
+- Combined datasets using SQL
+- Explored data in SQL
+- Calculated ride times in SQL, cleaned data of negative ride times
+- Using SQL, calculated mean ride times, weekend and weekday ride counts, mean weekend and weekday ride counts by month
+- Used R and **Lubridate** library to converted ride times (HH:MM:SS) to decimals
+- Used SQL to clean the latitude and longitude data
+- Plotted mean ride times, weekend/weekday ride counts, mean weekend/weekday ride counts using **ggplot2** library
+- Created map visualizations in Tableau
+- 
+
 ### Applications used
 
 - PostgreSQL
